@@ -1,0 +1,43 @@
+.bg-img1 {
+    display: block;
+    min-height: 400px;
+    max-height: 400px;
+    width: 100%;
+
+    background-size: cover;
+    background-image: url("/images/bg1.jpg");
+}
+
+.bg-img2 {
+    display: block;
+    width: 100%;
+    min-height: 400px;
+    max-height: 400px;
+    background-size: cover;
+    background-image: url("/images/bg2.jpg");
+}
+
+.bg-img3 {
+    display: block;
+    width: 100%;
+    min-height: 400px;
+    max-height: 400px;
+    background-size: cover;
+    background-image: url("/images/bg3.jpg");
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer .wrap-content {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+footer .wrap-content>div {
+    padding: 30px;
+}
